@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .login-container {
+            background-color: #000;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            width: 400px;
+            max-width: 90%;
+            text-align: center;
+        }
+        .login-container h2 {
+            margin-bottom: 20px;
+            color: #fff;
+        }
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            box-sizing: border-box;
+            background-color: #222;
+            color: #fff;
+        }
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .login-container button:hover {
+            background-color: #0056b3;
+        }
+        .login-container p {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #aaa;
+        }
+        .login-container a {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Entre na sua conta</h2>
+        <form>
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Entrar</button>
+        </form>
+        <p>Não tem uma conta? <a href="#">Criar conta</a></p>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Link</title>
+    <style>
+        button {
+            background-color: #007bff; /* Cor de fundo azul */
+            color: #fff; /* Cor do texto branco */
+            padding: 10px 20px; /* Espaçamento interno do botão */
+            border: none; /* Sem borda */
+            border-radius: 5px; /* Bordas arredondadas */
+            cursor: pointer; /* Cursor ao passar sobre o botão */
+        }
+        button:hover {
+            background-color: #0056b3; /* Cor de fundo azul mais escura no hover */
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.google.com" target="_blank">
+        <button>Continuar sem conta</button>
+    </a>
+</body>
+</html>
